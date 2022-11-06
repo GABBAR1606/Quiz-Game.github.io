@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(37, 5, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    margin-top: 50px;
+}
+
+.content{
+    padding: 50px;
+}
+.question{
+    font-size: 40px;
+}
+.answer{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.submit{
+    background-color: rgb(192, 134, 250);
+    color: white;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid black ;
+    border-left: none;
+    border-right: none;
+    font-size: 30px;
+}
+.submit:hover{
+    background-color: rgb(163, 97, 229);
+}
+.submit:active{
+    bottom: -2px;
+}
+.result{
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+.result h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.corret{
+    font-size: 20px;
+    color: green;
+}
+.wrong{
+    font-size: 20px;
+    color: red;
+}
+.play{
+    font-size: 20px;
+    color: white;
+    background-color:  rgb(192, 134, 250);
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.play:hover{
+    background-color: rgb(163, 97, 229);
+}
+.play:active{
+    position: relative;
+    top: 2px;
+}
